@@ -1,0 +1,17 @@
+# This is Git's per-user configuration file.
+[user]
+	name = Tobias Hettler
+	email = tobias.hettler@bitbench.dev
+[alias]
+	co = checkout
+	br = branch
+	ci = commit
+	st = status
+[init]
+	defaultBranch = main
+[pull]
+	rebase = false
+[includeIf "gitdir:~/Code/Work/mobiwende.camp/"]
+  path = ~/Code/Work/mobiwende.camp/.gitconfig_include
+[core]
+	excludesfile = ./.gitignore_global

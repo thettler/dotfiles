@@ -23,3 +23,8 @@ _darcs
 bin
 aliases.zsh
 path.zsh
+plugins
+.macos
+Brewfile
+clone.sh
+install.sh
