@@ -14,4 +14,4 @@
 [includeIf "gitdir:~/Code/Work/mobiwende.camp/"]
   path = ~/Code/Work/mobiwende.camp/.gitconfig_include
 [core]
-	excludesfile = ./.gitignore_global
+	excludesfile = ~/.gitignore_global

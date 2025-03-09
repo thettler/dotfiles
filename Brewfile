@@ -49,6 +49,7 @@ cask 'bruno'
 cask 'proton-drive'
 cask 'obsidian'
 cask 'vlc'
+cask 'dbngin'
 
 # Quicklook
 cask 'qlmarkdown'
