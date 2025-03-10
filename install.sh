@@ -21,9 +21,7 @@ if test ! $(which stow); then
 fi
 
 # Removes .zshrc from $HOME (if it exists) and symlinks the .zshrc file from the .dotfiles
-cd ./.dotfiles
 stow .
-cd ..
 
 # Update Homebrew recipes
 brew update

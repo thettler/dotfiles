@@ -1,3 +1,4 @@
+ZSH_DISABLE_COMPFIX="true"
 # Path to your dotfiles.
 export DOTFILES=$HOME/.dotfiles
 
@@ -112,3 +113,11 @@ export HERD_PHP_81_INI_SCAN_DIR="/Users/tobiashettler/Library/Application Suppor
 
 # Herd injected PHP 8.4 configuration.
 export HERD_PHP_84_INI_SCAN_DIR="/Users/tobiashettler/Library/Application Support/Herd/config/php/84/"
+
+
+# Herd injected PHP 8.4 configuration.
+export HERD_PHP_84_INI_SCAN_DIR="/Users/tobi/Library/Application Support/Herd/config/php/84/"
+
+
+# Herd injected PHP binary.
+export PATH="/Users/tobi/Library/Application Support/Herd/bin/":$PATH
